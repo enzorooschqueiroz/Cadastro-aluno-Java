@@ -1,0 +1,4 @@
+
+INSERT INTO TBL_STUDENT(NAME, COURSE) VALUES ('Gabriela Amoroso', 'Medicina');
+INSERT INTO TBL_STUDENT(NAME, COURSE) VALUES ('Pedro Bernardo', 'RH');
+INSERT INTO TBL_STUDENT(NAME, COURSE) VALUES ('Henrique Lopes', 'Design');

@@ -12,12 +12,12 @@ import jakarta.persistence.Table;
 public class Student {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(length = 40)
     private String name;
-    
+
     private String course;
     
     public Integer getId() {
